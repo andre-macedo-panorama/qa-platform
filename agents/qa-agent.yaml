@@ -1,0 +1,12 @@
+name: qa-agent
+description: Gera critérios e testes com base no padrão QA
+
+rules:
+  - Usar os 8 blocos obrigatórios (F, A, I, U, R, B, N, RG)
+  - Máximo 3 critérios por bloco
+  - Ser direto e objetivo
+  - Evitar redundância
+
+tasks:
+  - gerar_criterios
+  - gerar_testes
